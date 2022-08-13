@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="userPage">
+  <grid id="27dc6" binding="userPage" layout-manager="GridLayoutManager" row-count="27" column-count="20" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1230" height="948"/>
+    </constraints>
+    <properties>
+      <background color="-14532293"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="e97ee" class="javax.swing.JLabel" binding="welcomeMessage">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bookman Old Style" size="26" style="1"/>
+          <foreground color="-4481708"/>
+          <text value="Welcome to Grand Library of"/>
+        </properties>
+      </component>
+      <vspacer id="df05">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="18" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="1f4dc">
+        <constraints>
+          <grid row="26" column="2" row-span="1" col-span="17" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="25df6">
+        <constraints>
+          <grid row="0" column="19" row-span="27" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="11106">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="a0505">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="fef18">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <grid id="1c852" binding="bsPanel" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-13424831"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="68385" class="javax.swing.JButton" binding="r1c2">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bookshelf Symbol 7" size="14" style="1"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="125bf" class="javax.swing.JButton" binding="r2c1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bookshelf Symbol 7" size="14" style="1"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="44e02" class="javax.swing.JButton" binding="r3c1">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bookshelf Symbol 7" size="14" style="1"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="2c50" class="javax.swing.JButton" binding="r2c2">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bookshelf Symbol 7" size="14" style="1"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="fb43a" class="javax.swing.JButton" binding="r3c2">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bookshelf Symbol 7" size="14" style="1"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="61e90" class="javax.swing.JButton" binding="r1c3">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bookshelf Symbol 7" size="14" style="1"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="4caf0" class="javax.swing.JButton" binding="r2c3">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bookshelf Symbol 7" size="14" style="1"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="f1fba" class="javax.swing.JButton" binding="r3c3">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bookshelf Symbol 7" size="14" style="1"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+          <component id="7fc5e" class="javax.swing.JButton" binding="r1c1">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Bookshelf Symbol 7" size="14" style="1"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="2f370" class="javax.swing.JButton" binding="backButtonOfUser">
+        <constraints>
+          <grid row="25" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="1" use-parent-layout="false">
+            <minimum-size width="80" height="80"/>
+            <preferred-size width="80" height="80"/>
+            <maximum-size width="80" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="&lt;"/>
+        </properties>
+      </component>
+      <component id="c0c7f" class="javax.swing.JLabel" binding="userNameLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bookman Old Style" size="26" style="1"/>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <grid id="e3036" binding="rightPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="14" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12510167"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="dd81a" binding="bottomPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="15" column="2" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14270165"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <component id="935d1" class="javax.swing.JButton" binding="writers">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="180" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Britannic Bold" size="20" style="1"/>
+          <text value="Yazarlar"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="379d5" class="javax.swing.JButton" binding="allBooks">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="180" height="60"/>
+            <preferred-size width="100" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Britannic Bold" size="20" style="1"/>
+          <text value="Kitaplar"/>
+        </properties>
+      </component>
+      <component id="b0532" class="javax.swing.JButton" binding="friendsButton">
+        <constraints>
+          <grid row="17" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="180" height="60"/>
+            <preferred-size width="100" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Britannic Bold" size="20" style="0"/>
+          <text value="Arkadaşların"/>
+        </properties>
+      </component>
+      <component id="cf69e" class="javax.swing.JButton" binding="addBSbottom">
+        <constraints>
+          <grid row="16" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="40" height="40"/>
+            <preferred-size width="60" height="60"/>
+            <maximum-size width="60" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+          <font name="Bernard MT Condensed" size="20" style="1"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="acf13" class="javax.swing.JButton" binding="addBSright">
+        <constraints>
+          <grid row="14" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="40" height="40"/>
+            <preferred-size width="60" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Bernard MT Condensed" size="20" style="1"/>
+          <text value="+"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
